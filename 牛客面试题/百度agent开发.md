@@ -72,6 +72,108 @@
     4.  最后，将所有行的字符串拼接起来即为结果。
 - **启示**： 即使一开始没思路也不要慌，这是正常的。面试官提示后，要积极地与面试官沟通你的思考过程（“我现在的想法是...您看这个方向对吗？”），这比沉默要好得多。下来后多刷题，总结规律。
 
+好的，针对这道力扣（LeetCode）第6题 **“Z 字形变换”** ，我将根据你提供的核心思路，用Java语言写出清晰、注释完整的代码，并进行详细解释。
+
+### **题目描述**
+将一个给定字符串 `s` 根据给定的行数 `numRows` ，以从上往下、从左到右进行 Z 字形排列。
+
+比如输入字符串为 `"PAYPALISHIRING"` 行数为 3 时，排列如下：
+```
+P   A   H   N
+A P L S I I G
+Y   I   R
+```
+之后，你的输出需要从左往右逐行读取，产生出一个新的字符串，即：`"PAHNAPLSIIGYIR"`。
+
+### **完整代码与详细注释**
+```java
+public class Solution {
+    public String convert(String s, int numRows) {
+        // 处理特殊情况：如果只有一行，或者行数大于字符串长度，直接返回原字符串
+        if (numRows == 1 || numRows >= s.length()) {
+            return s;
+        }
+
+        // 1. 创建numRows个StringBuilder来模拟每一行
+        StringBuilder[] rows = new StringBuilder[numRows];
+        for (int i = 0; i < numRows; i++) {
+            rows[i] = new StringBuilder();
+        }
+
+        // 2. 初始化当前行curRow和方向标志goingDown
+        int curRow = 0;
+        boolean goingDown = false; // 初始方向设为false（可以理解为向上，但第一步后会反转）
+
+        // 3. 遍历字符串中的每一个字符
+        for (char c : s.toCharArray()) {
+            // 将当前字符追加到对应的行中
+            rows[curRow].append(c);
+            
+            // 4. 判断是否到达边界（第一行或最后一行），到达边界则改变方向
+            if (curRow == 0 || curRow == numRows - 1) {
+                goingDown = !goingDown;
+            }
+            
+            // 5. 根据方向更新当前行：如果向下则行号+1，向上则行号-1
+            curRow += goingDown ? 1 : -1;
+        }
+
+        // 6. 将所有行的字符串拼接起来形成结果
+        StringBuilder result = new StringBuilder();
+        for (StringBuilder row : rows) {
+            result.append(row);
+        }
+        return result.toString();
+    }
+}
+```
+
+### **关键点解释与模拟（以 s="PAYPALISHIRING", numRows=3 为例）**
+
+1.  **初始化**：
+    - `rows[0] = ""`, `rows[1] = ""`, `rows[2] = ""`
+    - `curRow = 0`, `goingDown = false`
+
+2.  **遍历过程**：
+    - **字符 'P'**:
+        - `rows[0]` -> `"P"`
+        - `curRow=0` 是边界，`goingDown` 反转：`false` -> `true`
+        - `curRow` 更新：`0 + 1 = 1` (因为 `goingDown` 为 `true`)
+    - **字符 'A'**:
+        - `rows[1]` -> `"A"`
+        - `curRow=1` 不是边界，方向不变 (`true`)
+        - `curRow` 更新：`1 + 1 = 2`
+    - **字符 'Y'**:
+        - `rows[2]` -> `"Y"`
+        - `curRow=2` 是边界（最后一行），`goingDown` 反转：`true` -> `false`
+        - `curRow` 更新：`2 - 1 = 1` (因为 `goingDown` 为 `false`)
+    - **字符 'P'**:
+        - `rows[1]` -> `"AP"`
+        - `curRow=1` 不是边界，方向不变 (`false`)
+        - `curRow` 更新：`1 - 1 = 0`
+    - **字符 'A'**:
+        - `rows[0]` -> `"PA"`
+        - `curRow=0` 是边界，`goingDown` 反转：`false` -> `true`
+        - `curRow` 更新：`0 + 1 = 1`
+    - **... 以此类推**
+
+3.  **最终各行内容**：
+    - `rows[0]` -> `"PAHN"`
+    - `rows[1]` -> `"APLSIIG"`
+    - `rows[2]` -> `"YIR"`
+
+4.  **拼接结果**： `"PAHN" + "APLSIIG" + "YIR" = "PAHNAPLSIIGYIR"`
+
+### **复杂度分析**
+- **时间复杂度**：O(n)，其中 n 是字符串 `s` 的长度。我们只需要遍历一次字符串。
+- **空间复杂度**：O(n)，用于存储所有行的字符串（输出字符串本身所占的空间）。
+
+### **面试技巧启示**
+- **沟通**：正如复盘所说，如果没思路，可以尝试先画图，然后向面试官描述你观察到的**下标规律**（例如，周期可能是 `T = 2 * numRows - 2`）。即使最后用了这种“模拟”法，也证明了你解决问题的能力。
+- **测试**：写完代码后，最好用一个小例子（比如上面的"PAYPALISHIRING"）口头模拟一遍，验证代码逻辑的正确性，这会给你加分。
+
+这个解法非常直观和高效，是面试中的标准答案。
+
 #### **五、 业务方向与反问环节解析**
 
 **1. 面试官提问：“你做的是多模态，我们更多是文本，愿意吗？”**
