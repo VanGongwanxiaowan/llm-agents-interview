@@ -1,47 +1,5 @@
 # LLMs
 
-## [二、大模型（LLMs）进阶面](https://articles.zsxq.com/id_xr65bxpcsnoh.html) 
-
-- 一、什么是生成式大模型？
-- 二、大模型是怎么让生成的文本丰富而不单调的呢？
-- 三、LLMs 复读机问题
-  - 3.1 什么是 LLMs 复读机问题？
-  - 3.2 为什么会出现 LLMs 复读机问题？
-  - 3.3 如何缓解 LLMs 复读机问题？
-- 四、llama 系列问题
-  - 4.1 llama 输入句子长度理论上可以无限长吗？
-- 五、什么情况用Bert模型，什么情况用LLaMA、ChatGLM类大模型，咋选？
-- 六、各个专业领域是否需要各自的大模型来服务？
-- 七、如何让大模型处理更长的文本？
-
-- [点击查看答案](https://articles.zsxq.com/id_xr65bxpcsnoh.html)
-
-## 三、大模型（LLMs）微调面
-
-### [大模型（LLMs）微调面](https://articles.zsxq.com/id_kv7jdah2zw5n.html) 
-
-- 39 大模型 sft 过程中，为什么会出现第二个epoch的时候loss会突然下降问题？
-- 1 如果想要在某个模型基础上做全参数微调，究竟需要多少显存？
-- 2 为什么SFT之后感觉LLM傻了?
-- 3 SFT 指令微调数据 如何构建?
-    - 3.1 提升sft的prompt的代表性有什么好的方法？
-    - 3.2 提升sft的prompt的数据量有什么好的方法？
-- 4 领域模型Continue PreTrain 数据选取？
-- 5 领域数据训练后，通用能力往往会有所下降，如何缓解模型遗忘通用能力？
-- 6 领域模型Continue PreTrain ，如何 让模型在预训练过程中就学习到更多的知识？
-- 7 进行SFT操作的时候，基座模型选用Chat还是Base?
-- 8 领域模型微调 指令\&数据输入格式 要求？
-- 9 领域模型微调 领域评测集 构建？
-- 10 领域模型词表扩增是不是有必要的？
-- 11 如何训练自己的大模型？
-- 12 训练中文大模型有啥经验？
-- 13 指令微调的好处？
-- 14 预训练和微调哪个阶段注入知识的？
-- 15 想让模型学习某个领域或行业的知识，是应该预训练还是应该微调？
-- ...
-
-- [点击查看答案](https://articles.zsxq.com/id_kv7jdah2zw5n.html)
-
 ### [大模型 SFT Trick 篇](https://articles.zsxq.com/id_srd92pvnjwmu.html)
 
 - 一、常见 SFT的开发流程是如何的？
