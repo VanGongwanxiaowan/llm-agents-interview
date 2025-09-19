@@ -1,56 +1,5 @@
 # LLMs
 
-### [大模型 SFT Trick 篇](https://articles.zsxq.com/id_srd92pvnjwmu.html)
-
-- 一、常见 SFT的开发流程是如何的？
-- 二、训练数据要注重什么？
-- 三、大 size 和小 size 模型的选择？
-- 四、多任务训练时怎么确保每个任务都优秀？
-- 五、SFT真的不能学到知识？
-- 六、怎么科学挑选数据集？
-- ...
-
-- [点击查看答案](https://articles.zsxq.com/id_srd92pvnjwmu.html)
-
-### [大模型（LLMs）训练经验帖](https://articles.zsxq.com/id_06n25d9wjs0e.html)
-
-- 分布式训练框架选择？
-- LLMs 训练时 有哪些有用的建议？
-- 模型大小如何选择？
-- 加速卡如何选择？
-
-- [点击查看答案](https://articles.zsxq.com/id_06n25d9wjs0e.html)
-
-## 四、大模型（LLMs）langchain 面
-
-### [大模型（LLMs）langchain 面](https://articles.zsxq.com/id_ve2dgaiqrjzv.html) 
-
-- 一、什么是 LangChain?
-- 二、LangChain 包含哪些 核心概念？
-  - 2.1 LangChain 中 Components and Chains 是什么？
-  - 2.2 LangChain 中 Prompt Templates and Values 是什么？
-  - 2.3 LangChain 中 Example Selectors 是什么？
-  - 2.4 LangChain 中 Output Parsers 是什么？
-  - 2.5 LangChain 中 Indexes and Retrievers 是什么？
-  - 2.6 LangChain 中  Chat Message History 是什么？
-  - 2.7 LangChain 中  Agents and Toolkits 是什么？
-- ...
-
-- [点击查看答案](https://articles.zsxq.com/id_ve2dgaiqrjzv.html)
-
-### [多轮对话中让AI保持长期记忆的8种优化方式篇](https://articles.zsxq.com/id_3qgicwcwzjpi.html) 
-
-- 一、前言
-- 二、Agent 如何获取上下文对话信息？
-  - 2.1 获取全量历史对话
-  - 2.2 滑动窗口获取最近部分对话内容
-  - ...
-
-- [点击查看答案](https://articles.zsxq.com/id_3qgicwcwzjpi.html)
-
-### [基于langchain RAG问答应用实战](https://articles.zsxq.com/id_3kw7snrk2rql.html) 
-
-- [点击查看答案](https://articles.zsxq.com/id_3kw7snrk2rql.html)
 
 ## 五、大模型（LLMs）RAG 检索增强生成面 
 
