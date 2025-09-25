@@ -2,66 +2,8 @@
 
 
 
-### [LoRA 系列篇](https://articles.zsxq.com/id_gjkhd8xn4pvt.html) 
 
-一、LoRA篇
-    - 1.1 什么是 LoRA？
-    - 1.2 LoRA 的思路是什么？
-    - 1.3 LoRA 的特点是什么？
-    - 1.4 简单描述一下 LoRA?
-    - 1.5 解释一下 LORA 微调的原理和计算流程？
-- 二、LoRA变体篇
-    - 2.1 QLoRA篇
-        - 2.1.1 QLoRA 的思路是怎么样的？
-        - 2.1.2 QLoRA 的特点是什么？
-        - 2.1.3 QLORA相比LORA做了哪些改进?
-    - 2.2 AdaLoRA篇
-    -   .2.1 AdaLoRA 的思路是怎么样的？
-    - 2.3 LongLoRA篇
-        - 2.3.1 为什么需要 LongLoRA？
-        - 2.3.2 LongLoRA 思路是什么？
-        - 2.3.3 介绍一下 shift short attention？
-- 三、Lora的矩阵怎么初始化？为什么要初始化为全0？
-- ...
 
-- [点击查看答案](https://articles.zsxq.com/id_gjkhd8xn4pvt.html)
-
-### [如何使用 PEFT库 中 LoRA？](https://articles.zsxq.com/id_8lx1t1t3w4qf.html) 
-
-- 一、前言
-- 二、如何 配置 LoraConfig？
-- 三、模型 加入PEFT策略
-  - 3.1 模型加载 策略有哪些？
-  - 3.2 模型显存占用的部分有哪些？
-  - 3.3 模型显存占用 优化策略？
-    - 3.3.1 8bit量化 优化策略？
-    - 3.3.2 梯度检查 优化策略？
-  - 3.4 如何 向 模型 加入PEFT策略？
-- ...
-
-- [点击查看答案](https://articles.zsxq.com/id_8lx1t1t3w4qf.html)
-
-### [大模型 SFT 方式对比篇](https://articles.zsxq.com/id_e2piver2uzei.html) 
-
-- 一、SFT 微调方案如何选择？
-- 二、Full Fine Tuning vs Parameter-Efficient Fine-Tuning
-- 三、Full Fine Tuning 篇
-  - 3.1 介绍一下 Full Fine Tuning？
-  - 3.2 介绍一下 Full Fine Tuning 优点？
-  - 3.3 介绍一下 Full Fine Tuning 缺点？
-- 四、Parameter-Efficient Fine-Tuning 篇
-  - 4.1 介绍一下 Parameter-Efficient Fine-Tuning？
-- 五、LoRA 篇
-  - 5.1 介绍一下 LoRA？
-  - 5.2 介绍一下 LoRA 流程？
-  - 5.3 介绍一下 LoRA 优点？
-  - 5.4 介绍一下 LoRA 缺点？
-- 六、QLoRA 篇
-  - 6.1 介绍一下 QLoRA？
-  - 6.2 介绍一下 QLoRA 流程？
-- ...
-
-- [点击查看答案](https://articles.zsxq.com/id_e2piver2uzei.html)
 
 ## 七、大模型（LLMs）推理面 
 
