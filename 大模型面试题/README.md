@@ -1,74 +1,8 @@
 # LLMs
 
 
-## 五、大模型（LLMs）RAG 检索增强生成面 
 
-### 5.1 大模型（LLMs）RAG 入门篇
 
-#### [基于LLM+向量库的文档对话 经验面](https://articles.zsxq.com/id_xk58m8ok2sob.html)
-
-- 一、基于LLM+向量库的文档对话 基础面
-  - 1.1 为什么 大模型 需要 外挂(向量)知识库？
-  - 1.2. 基于LLM+向量库的文档对话 思路是怎么样？
-  - 1.3. 基于LLM+向量库的文档对话 核心技术是什么？
-  - 1.4. 基于LLM+向量库的文档对话 prompt 模板 如何构建？
-- ...
-
-- [点击查看答案](https://articles.zsxq.com/id_xk58m8ok2sob.html)
-
-#### [RAG（Retrieval-Augmented Generation）面](https://articles.zsxq.com/id_xk58m8ok2sob.html) 
-
-- 一、LLMs 已经具备了较强能力了，存在哪些不足点?
-- 二、什么是 RAG?
-  - 2.1 R：检索器模块
-    - 2.1.1 如何获得准确的语义表示？
-    - 2.1.2 如何协调查询和文档的语义空间？
-    - 2.1.3 如何对齐检索模型的输出和大语言模型的偏好？
-  - 2.2 G：生成器模块
-    - 2.2.1 生成器介绍
-    - 2.2.2 如何通过后检索处理提升检索结果？
-    - 2.2.3 如何优化生成器应对输入数据？
-- 三、使用 RAG 的好处?
-- ...
-
-- [点击查看答案](https://articles.zsxq.com/id_xk58m8ok2sob.html)
-
-#### 5.2 大模型（LLMs）RAG 版面分析篇
-
-### [大模型（LLMs）RAG —— pdf解析关键问题](https://articles.zsxq.com/id_2693k55it84w.html)
-
-- 一、为什么需要进行pdf解析？
-- 二、为什么需要 对 pdf 进行解析？
-- 三、pdf解析 有哪些方法，对应的区别是什么？
-- 四、pdf解析 存在哪些问题？
-- ...
-
-- [点击查看答案](https://articles.zsxq.com/id_2693k55it84w.html)
-
-### [大模型（LLMs）RAG 版面分析——表格识别方法篇](https://articles.zsxq.com/id_7x4qv94hxv8r.html)
-
-- 一、为什么需要识别表格？
-- 二、介绍一下 表格识别 任务？
-- 三、有哪些 表格识别方法？
-  - 3.1 传统方法
-  - 3.2 pdfplumber表格抽取
-    - 3.2.1 pdfplumber 如何进行 表格抽取？
-    - 3.2.2 pdfplumber 常见的表格抽取模式？
-  - ...
-
-- [点击查看答案](https://articles.zsxq.com/id_7x4qv94hxv8r.html)
-
-### [大模型（LLMs）RAG 版面分析——文本分块面](https://articles.zsxq.com/id_iw7debl8akxh.html)
-
-- 一、为什么需要对文本分块？
-- 二、能不能介绍一下常见的文本分块方法？
-  - 2.1 一般的文本分块方法
-  - 2.2 正则拆分的文本分块方法
-  - 2.3 Spacy Text Splitter 方法
-  - 2.4 基于 langchain 的 CharacterTextSplitter 方法
-  - ...
-
-- [点击查看答案](https://articles.zsxq.com/id_iw7debl8akxh.html)
 
 ### 5.3 大模型（LLMs）RAG 检索策略篇
 
