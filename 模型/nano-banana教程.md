@@ -1,3 +1,17 @@
+karminski-牙医
+@karminski3
+·
+Aug 28
+nano-banana 教程第二弹! 教你如何做模特图!
+
+教程第二弹来啦! 这次选取了新海诚老师过去的作品里面的13个元素(有一些是随便找的哈哈哈), 然后使用 nano-banana 将这些元素合并为一张图!
+
+这个场景特别适合生成模特图, 比如你有好几件商品想要展示, 但是只有一张模特图, 你就可以尽情的把新商品丢进去生成模特图, 特别适合穿搭, 饰品, 运动这样的模特场景.
+
+照例分享本次使用的 prompt (这回需要改一改才能用哦, 把里面的物品换成你的物品):
+
+In a pure white studio background with the camera lens extending forward, a beautiful young female model is dressed in a white sailor suit, complete with calf-high socks and matching shoes. She carries a backpack slung over one shoulder, adorned with a cute plush cat toy. A marker peeks out from a side pocket of the backpack. A red ribbon with a delicate texture ties her long hair into a high single ponytail. The model leans against a stylish motorcycle, her left hand elegantly holding a translucent blue crystal, which she gazes at with a focused and fascinated expression. In her right hand, she holds an umbrella. Beside the motorcycle, a can of golden wheat beer rests on a playful three-legged chair toy. An electric violin leans against the front wheel of the motorcycle. The entire composition is exquisitely framed with bright and even lighting.
+
 
 karminski-牙医
 @karminski3
