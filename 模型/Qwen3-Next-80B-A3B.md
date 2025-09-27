@@ -1,5 +1,22 @@
 karminski-牙医
 @karminski3
+
+千问刚刚发布了 Qwen3-Next-80B-A3B！
+
+总计两个版本
+Qwen3-Next-80B-A3B-Instruct
+Qwen3-Next-80B-A3B-Thinking
+
+从跑分看，Qwen3-Next-80B-A3B-Instruct 能跟 Qwen3-235B-A22B 打得有来有回，这次新模型是新的架构尝试，结合了 Gated DeltaNet 和 Gated Attention，以及高稀疏性 MoE 层，（80B仅激活3B），并且长文本性能也增强了很多，原生 262K，可以扩展到 1M。
+
+
+模型位置：http://huggingface.co/Qwen/Qwen3-Next-80B-A3B-Instruct
+
+<img width="645" height="680" alt="image" src="https://github.com/user-attachments/assets/909528ca-3fab-4da4-9079-d25d63abda6e" />
+
+<img width="1169" height="4096" alt="image" src="https://github.com/user-attachments/assets/b21aa709-3828-48b1-9b23-b6ca05e1e82d" />
+
+
 给大家带来 Qwen3-Next-80B-A3B 新架构的技术解析
 
 说实话这个架构我乍一看立刻想到了——推测性解码，同样都是先用精简架构进行快速生成，然后用复杂但是精度高的架构提升生成质量。但是二者还是有决定性的不同之处的，来给大家捋一捋：
