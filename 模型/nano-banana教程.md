@@ -2,6 +2,17 @@ karminski-牙医
 @karminski3
 ·
 Aug 28
+
+给大家来个短小精悍的 nano-banana 教程！如何将你看到的建筑转换为城市天际线风格的3D建筑模型！
+
+prompt: Based on this architectural photograph, generate a high-fidelity 3D building model inthe style of "Cities: Skylines.”
+Key Requirements:
+Aim for a realistic look, preserving the main structure and texture details of thebuilding, but stylized for a game.
+Emphasize realistic lighting and shadow effects.
+Use a 45-degree top-down perspective to showcase the building's three-dimensionality.
+Materials should be clearly defined, such as reflective glass and metallic surfaces. lt should look like a high-quality 3D render suitable for a game engine.
+
+
 nano-banana 教程第二弹! 教你如何做模特图!
 
 教程第二弹来啦! 这次选取了新海诚老师过去的作品里面的13个元素(有一些是随便找的哈哈哈), 然后使用 nano-banana 将这些元素合并为一张图!
