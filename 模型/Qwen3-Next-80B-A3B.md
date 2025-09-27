@@ -11,3 +11,6 @@ Qwen3-Next 是先用 Gated DeltaNet，这个是线性注意力机制，计算复
 期待一波这个新架构 Qwen 会不会应用到更大参数量的模型上，比如 Qwen3-Next-320B-A12B 哈哈
 
 <img width="810" height="2048" alt="image" src="https://github.com/user-attachments/assets/cd67b907-f718-467c-856d-6acd858c3c52" />
+
+
+<img width="992" height="1056" alt="image" src="https://github.com/user-attachments/assets/b5a0a8c8-6cb7-4771-8177-37749ceb5224" />
