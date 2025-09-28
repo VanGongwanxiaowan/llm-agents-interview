@@ -1,3 +1,5 @@
+https://www.emergentmind.com/topics/reinforcement-learning-from-verifier-rewards-rlvr
+
 # Reinforcement Learning from Verifier Rewards
 
 Reinforcement Learning from Verifier Rewards (RLVR) is a paradigm wherein reinforcement learning (RL) is employed to train large-scale language, vision-language, or world models using reward signals that stem from automatic, programmatic, or model-based verifiers. These verifiers check solution validity, format, or adherence to task-specific rubrics. RLVR distinguishes itself from traditional RL by emphasizing the provision of deterministic, interpretable feedback through verification, extending applicability to domains like mathematics, code, instruction following, multimodal reasoning, world modeling, and even empathetic dialogue.
