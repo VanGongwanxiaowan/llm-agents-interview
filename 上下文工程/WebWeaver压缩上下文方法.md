@@ -27,4 +27,25 @@ classifications and disease staging systems for Parkinson’s disease"}}
 
 
 
+这篇题为 **《WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research》** 的论文，提出了一种创新的双智能体框架，致力于让AI能像人类研究员一样进行深度、开放式的调研。
+
+### 📄 官方资料索引
+
+下面的表格汇总了这篇论文的核心信息以及相关的官方资源链接，方便你快速查阅。
+
+| 项目 | 信息 |
+| :--- | :--- |
+| **论文标题** | WebWeaver: Structuring Web-Scale Evidence with Dynamic Outlines for Open-Ended Deep Research |
+| **核心摘要** | 针对开放式深度研究（OEDR）任务，提出了由**规划智能体**和**写作智能体**协同工作的框架，通过动态大纲构建和分层内容合成，解决了传统方法的静态规划与信息过载问题。 |
+| **官方PDF链接** | [https://arxiv.org/pdf/2509.13312](https://arxiv.org/pdf/2509.13312)  |
+| **GitHub项目地址** | [https://github.com/Alibaba-NLP/DeepResearch](https://github.com/Alibaba-NLP/DeepResearch)  |
+
+### 💡 论文核心解读
+
+为了帮助你快速了解这项工作的价值，这里有一些关键信息：
+
+- **创新点**：WebWeaver的核心创新在于其**双智能体架构**。**规划智能体**负责动态地进行网络探索和优化研究大纲，而**写作智能体**则基于大纲，通过分层检索证据来逐部分撰写报告。这种设计模拟了人类研究员“边探索边规划”的工作方式。
+- **解决的问题**：传统AI研究方法常因**静态大纲**和试图**一次性处理所有信息**而遇到瓶颈，导致报告深度不够、遗漏关键信息或产生事实错误（幻觉）。WebWeaver的动态和分层机制有效地应对了这些挑战。
+- **性能表现**：根据论文，WebWeaver在DeepResearch Bench、DeepConsult和DeepResearchGym等多个权威评测基准上都取得了领先的成绩。
+
 
